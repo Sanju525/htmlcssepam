@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HTML and CSS Form with Bootstrap 4</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<style type="text/css">
+body {
+  background: #eee;
+}
+.wrapper {
+  margin: 80px;
+}
+.form-signin {
+  max-width: 380px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 15px 40px 50px;
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+}
+.form-signin .form-signin-heading, .form-signin .checkbox {
+  margin-bottom: 30px;
+}
+.form-signin input[type="text"], .form-signin input[type="password"] {
+  margin-bottom: 20px;
+}
+.form-signin .form-control {
+  padding: 10px;
+}
+.myButton {
+color: rgb(255, 72, 31); font-size: 30px; line-height: 30px; padding: 6px; border-radius: 14px; font-family: Georgia, serif; font-weight: normal; text-decoration: none; font-style: normal; font-variant: normal; text-transform: none; background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%); box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px; border: 2px solid rgb(28, 110, 164); display: inline-block;}
+.myButton:hover {
+background: #1C6EA4; }
+.myButton:active {
+background: #144E75; }
+    .btnf{
+        width: 100%;
+        margin-bottom: 10px;
+        height: 50px;
+        background-color: red;
+/*            rgba(16,125,246);*/
+        border-radius: 5px;
+/*        16 125 246*/
+        font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+        color: white;
+    }
+    .btnL{
+         width: 100%;
+        margin-bottom: 10px;
+        height: 50px;
+        background-color: green;
+/*            rgba(16,125,246);*/
+        border-radius: 5px;
+/*        16 125 246*/
+        font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+        color: white;
+    }
+</style>
+</head>
+<body>
+
+<div class="wrapper">
+
+<form class="form-signin">
+  <h2 class="form-signin-heading text-center">Sign in Form</h2>
+  <input type="text" class="form-control" name="username" placeholder="Email Address" required="" autofocus="" />
+  <input type="password" class="form-control" name="password" placeholder="Password" required="" />
+  <label class="checkbox">
+    <input type="checkbox" value="remember-me" id="rememberMe" name="rememberMe">
+    Remember me
+  </label>
+  <button class="btn btn-lg btn-primary btn-block">SIGN in</button>
+    <p><center style="font-size: 40px">&#45;&#45;&#45;&#45;&#45;&#45;<b>or</b>&#45;&#45;&#45;&#45;&#45;&#45;</center></p>
+    
+    <button class="btn btn-lg btn-primary btn-block" >f</button>
+     <button class="btnf" id="redGoogle">G</button>
+        
+<!--     <button class="btn btn-lg btn-primary btn-block">G</button>-->
+    <br />
+    <br />
+<!--     <button class="btn btn-lg btn-primary btn-block">  EPAM login    </button>-->
+     <button class="btnL">  EPAM login    </button>
+   
+  
+</form>
+
+</div>
+
+
+
+
+
+
+
+
+</body>
+</html>
